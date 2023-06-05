@@ -21,3 +21,13 @@
       if(slideNumber > (numberOfSlides - 1)){
         slideNumber = 0;
       }
+
+      slideNumber++;
+
+      if(slideNumber > (numberOfSlides - 1)){
+        slideNumber = 0;
+      }
+
+      slides[slideNumber].classList.add("active");
+      slideIcons[slideNumber].classList.add("active");
+    });
