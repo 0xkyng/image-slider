@@ -1,4 +1,4 @@
-<!-- To make the interactive using javascript, i began by selecting various elements from the HTML document using the document.querySelector and document.querySelectorAll methods. I selected the slider container, next and previous buttons, individual slides, and slide icons. These elements were stored in corresponding variables for later use.
+To make the image slider interactive using javascript, i began by selecting various elements from the HTML document using the document.querySelector and document.querySelectorAll methods. I selected the slider container, next and previous buttons, individual slides, and slide icons. I stored these elements in corresponding variables for later use.
 
     Then i initialized some variables: numberOfSlides holds the total number of slides, and slideNumber keeps track of the currently active slide (initially set to 0).
 
@@ -10,4 +10,4 @@
 
     The repeater function is called initially to start the autoplay when the page loads (repeater()).
 
-    I also added event listeners for the slider container's mouseover and mouseout events. When the mouse is over the slider, the autoplay is paused by clearing the interval (clearInterval(playSlider)). When the mouse moves out of the slider, the autoplay resumes by calling the repeater function again. --> 
+    I also added event listeners for the slider container's mouseover and mouseout events. When the mouse is over the slider, the autoplay is paused by clearing the interval (clearInterval(playSlider)). When the mouse moves out of the slider, the autoplay resumes by calling the repeater function again. 
