@@ -79,7 +79,7 @@ body{
   opacity: 1;
 }
 
-/* .prev-btn, .next-btn{
+.prev-btn, .next-btn{
   z-index: 999;
   font-size: 2em;
   color: #222;
@@ -141,4 +141,4 @@ body{
   .slider .slide .info p{
     font-size: 0.9em;
   }
-} */
+}
